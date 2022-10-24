@@ -78,11 +78,3 @@ showCollection(collection);
 //Create a function called listItems. It should:
 //loop over the items in the basket array
 //console.log each individual item on a new line
-
-function listItems(){
-    for (i = 0; i < basket.length; i++){
-    return basket;
-    }
-}
-
-console.log('Listing items in basket:', listItems());
