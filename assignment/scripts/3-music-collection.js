@@ -62,6 +62,8 @@ function showCollection(collectionArray){
 
 //Test the showCollection function.
 
+showCollection(collection);
+
 //Add a function named findByArtist. This function should:
 //Take in artist (a string) parameter
 //Create an array to hold any results, empty to start
