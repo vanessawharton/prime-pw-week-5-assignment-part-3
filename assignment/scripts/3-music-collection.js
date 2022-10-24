@@ -12,4 +12,3 @@ function addToCollection(title, artist, yearPublished){
 }
 
 addToCollection('In Rainbows', 'Radiohead', 2007);
-console.log(newAddition);
