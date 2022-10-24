@@ -11,7 +11,7 @@ let collection = [];
 //Return the newly created object
 
 function addToCollection(title, artist, yearPublished){
-    const newAddition = title + artist + yearPublished;
+    const newAddition = "title" + artist + yearPublished;
     newAddition.title = title;
     newAddition.artist = artist;
     newAddition.yearPublished = yearPublished;
@@ -55,7 +55,6 @@ console.log(collection);
 
 function showCollection(collectionArray){
     for (i=0; i<collectionArray.length; i++){
-        
         console.log(collection.title, " by ", collection.artist, ", published in ", collection.yearPublished);
     }
     console.log(collectionArray.length);
