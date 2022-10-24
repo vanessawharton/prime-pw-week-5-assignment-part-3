@@ -53,9 +53,9 @@ console.log(collection);
 //Console.log the number of items in the array.
 //Loop over the array and console.log each album's information formatted like: TITLE by ARTIST, published in YEAR.
 
-function showCollection(collectionArray){
-    for (i=0; i<collectionArray.length; i++){
-        console.log(${collection});
+function showCollection(){
+    for (i = 0; i < collection.length; i++){
+        return collection;
     }
     console.log(collectionArray.length);
 }
@@ -72,3 +72,17 @@ showCollection(collection);
 
 //Test the findByArtist function. Make sure to test with an artist you know is in the collection, as well as an artist
 //you know is not in your collection. Check that for artists with multiple matches, all are found
+
+
+
+//Create a function called listItems. It should:
+//loop over the items in the basket array
+//console.log each individual item on a new line
+
+function listItems(){
+    for (i = 0; i < basket.length; i++){
+    return basket;
+    }
+}
+
+console.log('Listing items in basket:', listItems());
