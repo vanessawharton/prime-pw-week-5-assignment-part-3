@@ -73,8 +73,8 @@ showCollection(collection);
 
 function findByArtist(artist){
     let resultsArray = [];
-    if(collection.artist === "artist"){
-        resultsArray.push("artist");
+    if(collection.artist === artist){
+        resultsArray.push(artist);
         return resultsArray;
     }
     else{
