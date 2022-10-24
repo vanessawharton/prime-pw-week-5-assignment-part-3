@@ -12,9 +12,9 @@ function addToCollection(title, artist, yearPublished){
 }
 
 addToCollection('In Rainbows', 'Radiohead', 2007);
-console.log('First Album:', addToCollection());
+console.log('First Album:', collection[0]);
 addToCollection('Everything Now', 'Arcade Fire', 2017);
-console.log('Second Album:', collection.push);
+console.log('Second Album:', collection[1]);
 addToCollection('My Cherie Amour', 'Stevie Wonder', 1969);
 console.log('Third Album:', collection.push);
 addToCollection('Bon Iver', 'Bon Iver', 2011);
