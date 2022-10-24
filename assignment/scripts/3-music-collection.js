@@ -12,9 +12,9 @@ function addToCollection(title, artist, yearPublished){
 }
 
 addToCollection('In Rainbows', 'Radiohead', 2007);
-console.log('First Album:', collection[0]);
+console.log('First Album:', collection[collection.length -1]);
 addToCollection('Everything Now', 'Arcade Fire', 2017);
-console.log('Second Album:', collection[1]);
+console.log('Second Album:', collection[collection.length -1]);
 addToCollection('My Cherie Amour', 'Stevie Wonder', 1969);
 console.log('Third Album:', collection[collection.length -1]);
 addToCollection('Bon Iver', 'Bon Iver', 2011);
@@ -31,3 +31,5 @@ addToCollection('American Teen', 'Khalid', 2017);
 console.log('Ninth Album:', collection[collection.length -1]);
 addToCollection('Wasting Light', 'Foo Fighters', 2011);
 console.log('Tenth Album:', collection[collection.length -1]);
+
+console.log(collection());
