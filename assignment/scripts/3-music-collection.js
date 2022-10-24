@@ -85,7 +85,7 @@ function findByArtist(artist){
 //Test the findByArtist function. Make sure to test with an artist you know is in the collection, as well as an artist
 //you know is not in your collection. Check that for artists with multiple matches, all are found
 
-findByArtist("Fleetwood Mac")";
+findByArtist("Fleetwood Mac");
 console.log(findByArtist());
 findByArtist("Arcade Fire");
 console.log(findByArtist());
