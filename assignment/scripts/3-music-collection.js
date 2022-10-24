@@ -11,7 +11,7 @@ let collection = [];
 //Return the newly created object
 
 function addToCollection(title, artist, yearPublished){
-    const newAddition = "title" + artist + yearPublished;
+    const newAddition = title + " " + artist + " " + yearPublished;
     newAddition.title = title;
     newAddition.artist = artist;
     newAddition.yearPublished = yearPublished;
