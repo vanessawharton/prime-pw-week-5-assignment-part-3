@@ -62,7 +62,7 @@ function showCollection(){
 
 //Test the showCollection function.
 
-showCollection(collection);
+showCollection();
 
 //Add a function named findByArtist. This function should:
 //Take in artist (a string) parameter
