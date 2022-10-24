@@ -57,7 +57,7 @@ function showCollection(){
     for (i = 0; i < collection.length; i++){
         return collection;
     }
-    console.log(collectionArray.length);
+    console.log(collection.length);
 }
 
 //Test the showCollection function.
