@@ -71,7 +71,7 @@ showCollection(collection);
 //Return the array with the matching results. If no results are found, return an empty array.
 
 
-function findByArtist('artist'){
+function findByArtist(artist){
     let resultsArray = [];
     if(collection.artist === "artist"){
         resultsArray.push("artist");
