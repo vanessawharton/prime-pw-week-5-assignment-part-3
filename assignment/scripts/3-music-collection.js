@@ -55,7 +55,7 @@ console.log(collection);
 
 function showCollection(collectionArray){
     for (i=0; i<collectionArray.length; i++){
-        console.log(`${collection});
+        console.log(${collection});
     }
     console.log(collectionArray.length);
 }
@@ -71,4 +71,4 @@ showCollection(collection);
 //Return the array with the matching results. If no results are found, return an empty array.
 
 //Test the findByArtist function. Make sure to test with an artist you know is in the collection, as well as an artist
-//you know is not in your collection. Check that for artists with multiple matches, all are found.
+//you know is not in your collection. Check that for artists with multiple matches, all are found
