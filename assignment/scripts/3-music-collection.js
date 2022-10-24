@@ -32,4 +32,4 @@ console.log('Ninth Album:', collection[collection.length -1]);
 addToCollection('Wasting Light', 'Foo Fighters', 2011);
 console.log('Tenth Album:', collection[collection.length -1]);
 
-console.log(collection());
+console.log(collection);
