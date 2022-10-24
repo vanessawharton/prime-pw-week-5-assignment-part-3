@@ -55,7 +55,7 @@ console.log(collection);
 
 function showCollection(collectionArray){
     for (i=0; i<collectionArray.length; i++){
-        console.log(collection.title, " by ", collection.artist, ", published in ", collection.yearPublished);
+        console.log(collection[0]);
     }
     console.log(collectionArray.length);
 }
